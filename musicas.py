@@ -6,4 +6,4 @@ class Musicas:
 
 Musicas_TimMaia = Musicas()
 Musicas_Hyldon = Musicas()
-
+Musicas_Hyldon.nome = 'Hyldon'
