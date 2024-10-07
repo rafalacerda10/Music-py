@@ -1,9 +1,10 @@
-class Musicas:
-    nome = ''
-    Categoria = ''
-    Autor = ''
-    Visuailizações = 0
+class Musica:
+    def __init__(self, nome, categoria, autor):
+        self.nome = nome
+        self.categoria = categoria
+        self.autor = autor
+        self.visuailizações = 0
 
-Musicas_TimMaia = Musicas()
-Musicas_Hyldon = Musicas()
-Musicas_Hyldon.nome = 'Hyldon'
+
+Musicas_1 = Musica('Ela Partiu','Soul','Tim Maia')
+print(vars(Musicas_1))
