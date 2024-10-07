@@ -3,8 +3,15 @@ class Musica:
         self.nome = nome
         self.categoria = categoria
         self.autor = autor
-        self.visuailizações = 0
+        self.visuailizacoes = 0
+
+#def str para reconhecer mais um metódo próprio Python  
+    def __str__(self):
+        return f'{self.nome} | {self.categoria} | {self.autor}'
 
 
-Musicas_1 = Musica('Ela Partiu','Soul','Tim Maia')
-print(vars(Musicas_1))
+Musica_1 = Musica('Ela Partiu','Soul','Tim Maia')
+Musica_2 = Musica('So os Loucos Sabem','Hip-Hop','Charlie Brown Jr')
+# print(vars(Musicas_1))
+print(Musica_1)
+print(Musica_2)
