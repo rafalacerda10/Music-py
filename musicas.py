@@ -4,16 +4,21 @@ class Musica:
         self.nome = nome
         self.categoria = categoria
         self.autor = autor
-        self.visuailizacoes = 0
+        self._visualizacoes = 0
 
 #def str para reconhecer mais um metódo próprio Python  
     def __str__(self):
         return f'{self.nome} | {self.categoria} | {self.autor}'
     
     def list_music():
+        print(f'{'Name Music'.ljust(25)} | {'Category Music'.ljust(25)} | {'Author Music'.ljust(25)} | {'Visualization Music'.ljust(25)}')
         for music in Musica.musics:
-            print(f'{music.nome} | {music.categoria} | {music.autor}')
-
+            print(f'{music.nome.ljust(25)} | {music.categoria.ljust(25)} | {music.autor.ljust(25)} | {music.visualizacoes.ljust(25)}')
+    
+    @property
+    def visualizacoes(self):
+        
+        return 'Offline'
 
 Musica_1 = Musica('Ela Partiu','Soul','Tim Maia')
 Musica_2 = Musica('So os Loucos Sabem','Hip-Hop','Charlie Brown Jr')
