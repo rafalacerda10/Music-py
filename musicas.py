@@ -1,8 +1,8 @@
 class Musica:
     musics = [] # List of music
     def __init__(self, nome, categoria, autor):
-        self.nome = nome
-        self.categoria = categoria
+        self.nome = nome.title()
+        self.categoria = categoria.upper()
         self.autor = autor
         self._visualizacoes = 0
 
