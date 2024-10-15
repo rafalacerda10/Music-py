@@ -4,7 +4,7 @@ class Musica:
         self.nome = nome.title()
         self.categoria = categoria.upper()
         self.autor = autor
-        self._visualizacoes = 0
+        self._visualizacoes = ''
 
 #def str para reconhecer mais um metódo próprio Python  
     def __str__(self):
@@ -16,11 +16,16 @@ class Musica:
             print(f'{music.nome.ljust(25)} | {music.categoria.ljust(25)} | {music.autor.ljust(25)} | {music.visualizacoes.ljust(25)}')
     
     @property
-    def visualizacoes(self):
-        
+    def _visualizacoes(self):
         return 'Offline'
+    
+    def alternate_offline(self):
+        self._visualizacoes = self._visualizacoes
+
+ 
 
 Musica_1 = Musica('Ela Partiu','Soul','Tim Maia')
+Musica_1.alternate_offline()    
 Musica_2 = Musica('So os Loucos Sabem','Hip-Hop','Charlie Brown Jr')
 Musica_3 = Musica('Onda','Soul','Cassiano')
 # print(vars(Musicas_1))
