@@ -8,5 +8,6 @@
 - @classmethod, 
 - @property,
 - def Off/On
+- Add app.py file to project
 
 
