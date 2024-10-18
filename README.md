@@ -1,5 +1,5 @@
 
-# Project Trainner Python With Music
+# Project Python Music
 
 
 ![object-removebg-preview](https://github.com/user-attachments/assets/59b36bcb-0822-413e-a3d9-ac9671fd68ee) 
