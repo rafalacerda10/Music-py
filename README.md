@@ -1,1 +1,12 @@
-Project Trainner Python With Music
+
+# Project Trainner Python With Music
+
+
+![object-removebg-preview](https://github.com/user-attachments/assets/59b36bcb-0822-413e-a3d9-ac9671fd68ee) 
+## Create class project Music:
+- Self, 
+- @classmethod, 
+- @property,
+- def Off/On
+
+
