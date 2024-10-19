@@ -9,6 +9,7 @@
 - @property,
 - def Off/On
 - Add app.py file to project
-- Add comentarios oriject ans example
+- Add class coments and create example
+
 
 
