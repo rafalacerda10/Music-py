@@ -1,8 +1,11 @@
 from models.musicas import  Musica
 
-## Musicas a declarar
-m1 = Musica('Ela Partiu', 'Soul', 'Tim Maia')
-m2 = Musica('Azul da Cor do Mar', 'Soul', 'Tim Maia')
+## Lista de musicas
+## Musica a declarar
+m1 = Musica('Ela Partiu','Soul','Tim Maia')
+
+m1.receber_comentario('User345', 'Show')
+
 
 m1.OffOn()
 def main():
@@ -10,4 +13,4 @@ def main():
 
 if __name__ == '__main__':
     main()
-    print('O programa foi executado.')
+    
